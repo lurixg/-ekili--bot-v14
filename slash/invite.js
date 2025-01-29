@@ -2,7 +2,7 @@ const { EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('
 const config = require('../config.json');
 
 module.exports = {
-    name: 'davet',
+    name: 'invite',
     description: '➕ Botu sunucunuza davet edin!',
     run: async (client, interaction) => {
         const row = new ActionRowBuilder()
