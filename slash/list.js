@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const config = require('../config.json');
 
 module.exports = {
-  name: 'liste',
+  name: 'list',
   description: '🎉 Bu sunucuda aktif olan tüm çekilişleri listele.',
   run: async (client, interaction) => {
     const select = new Discord.SelectMenuBuilder()
